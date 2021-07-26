@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&family=Fuggles&family=Maven+Pro:wght@500&family=Pacifico&family=Tajawal:wght@300&display=swap");
+.cart {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.cart-container {
+  top: 120px;
+  width: 100vw;
+  height: calc(100vh - 120px);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-title {
+  margin-top: 50px;
+  height: 60px;
+  width: 60vw;
+  border-bottom: 3px solid rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Asap", sans-serif;
+}
+
+.order-container {
+  position: relative;
+  margin-top: 30px;
+  height: 500px;
+  width: 400px;
+  background-color: rgb(233, 231, 231);
+  display: flex;
+  justify-content: center;
+}
+
+.order-title {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 600;
+  border-bottom: 2px solid rgb(214, 214, 214);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Asap", sans-serif;
+  width: 300px;
+}
+
+.items {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 500;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Asap", sans-serif;
+  width: 300px;
+  top: 120px;
+  color: #222222;
+}
+
+.cost {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 500;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Asap", sans-serif;
+  width: 300px;
+  top: 220px;
+  color: #222222;
+}
+
+.cart-button {
+  position: absolute;
+  height: 60px;
+  width: 300px;
+  top: 320px;
+  border: none;
+  background-color: #5d50dd;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reverse {
+  position: absolute;
+  top: 420px;
+  color: #5d50dd;
+  font-size: 25px;
+  text-decoration: none;
+}
